@@ -22,7 +22,7 @@ export default function App() {
 
 
   return (
-    <div className={`${CENTERING_STYLE}`}>
+    <div className={`${CENTERING_STYLE} mb-50`}>
         <Header showHeader={showExperience || showProjects} changeToExperience={() => changeToExperience()} changeToProjects={() => changeToProjects()} />
         <Experience showExperience={showExperience} />
         <Projects showProjects={showProjects} />

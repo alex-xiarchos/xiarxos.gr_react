@@ -27,30 +27,17 @@ html {
 }
 
 .content-section {
-    margin-top: 15rem;
+    margin-top: 45rem;
 }
+
+
+
+/* Will the following be used? */
 
 @media (max-width: 768px) {
     #projects-section {
         display: none;
     }
-}
-
-p {
-    margin-bottom: 0.75rem;
-}
-
-ul {
-    list-style-type: square;
-    padding-left: 1.5rem;
-}
-
-ul li {
-    margin-bottom: 0.75rem;
-}
-
-ul li::marker {
-    color: #1f2937; /* text-gray-800 */
 }
 
 .link {
