@@ -1,4 +1,4 @@
-import {SOCIAL_LINKS} from "../socialsData.js";
+import {SOCIAL_LINKS} from "../../data/socialsData.js";
 
 function Social({image, username, link}) {
     return (

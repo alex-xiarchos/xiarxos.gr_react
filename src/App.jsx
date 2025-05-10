@@ -1,8 +1,8 @@
-import HomeMobile from "./HomeMobile.jsx";
-import Header from "./Header.jsx";
+import HomeMobile from "./components/HomeMobile.jsx";
+import Header from "./components/Header.jsx";
 import {useState} from "react";
-import Experience from "./Experience.jsx";
-import Projects from "./Projects.jsx";
+import Experience from "./components/Experience.jsx";
+import Projects from "./components/Projects.jsx";
 
 export default function App() {
     const CENTERING_STYLE = "flex flex-col items-center justify-center h-screen";
