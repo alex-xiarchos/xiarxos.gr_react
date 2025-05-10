@@ -1,14 +1,15 @@
 import {PROJECTS} from "../data/projectsData.js";
+import {PROJECT_CARDS_STYLE, TAG_STYLE} from "../TailwindStyles.js";
 
-export default function Projects({ showProjects }) {
+export default function Projects() {
     return (
-        <div className={`${showProjects ? "" : "hidden"} mt-85`} >
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-10">
+        <div>
+            <div className={PROJECT_CARDS_STYLE}>
                 {PROJECTS.map((project, index) => (
                     <div key={index} className="p-4 shadow-md bg-white">
                         <ul className="mb-1 text-sm text-gray-500">
                             {project.keywords.map((keyword, i) => (
-                                <li key={i} className="inline-block mb-2 mr-2 bg-gray-100 px-2 py-0.5 rounded">
+                                <li key={i} className={TAG_STYLE}>
                                     {keyword}
                                 </li>
                             ))}

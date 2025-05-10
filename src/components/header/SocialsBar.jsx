@@ -1,4 +1,6 @@
 import {SOCIAL_LINKS} from "../../data/socialsData.js";
+import {HOME_STYLE, SOCIALS_BAR_STYLE} from "../../TailwindStyles.js"
+
 
 function Social({image, username, link}) {
     return (
@@ -16,9 +18,6 @@ function SocialDivider() {
 }
 
 export default function SocialsBar() {
-    const HOME_STYLE = "md:flex items-center justify-center";
-    const SOCIALS_BAR_STYLE = "text-gray-800 text-xl tracking-wide";
-
     return (
         <div className={`${SOCIALS_BAR_STYLE} ${HOME_STYLE}`}>
             <Social image={SOCIAL_LINKS[0].image} username={SOCIAL_LINKS[0].username} link={SOCIAL_LINKS[0].link}/>
