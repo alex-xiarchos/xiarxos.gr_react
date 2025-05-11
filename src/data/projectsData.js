@@ -2,7 +2,7 @@ export const PROJECTS = [
     {
         title: "Human Activity Classification & Clustering System",
         keywords: ["Python", "pandas", "Matplotlib", "Neural Networks", "Neural Networks"],
-        summary: "A data mining system utilizing classification and clustering to analyze human activity data from wearable sensors.\n" +
+        summary: "A data mining system utilizing classification and clustering to analyze human activity data from wearable sensors.\n\n" +
             "Classification models (MLP, Random Forest, Bayesian Networks) and clustering algorithms (K-Means, DBSCAN) were applied after data preprocessing and visualization.",
         description: "A data mining and machine learning system for classifying and clustering human activity data from wearable sensors. The preprocessing pipeline, built with Pandas and NumPy, handles missing values, normalizes sensor readings, and structures data for analysis. Visualization is done using Matplotlib and Seaborn.\n" +
             "\n" +
@@ -68,12 +68,12 @@ export const PROJECTS = [
         report: "",
         source: "",
     },
-    {
-        title: "",
-        keywords: [],
-        summary: "",
-        description: "",
-        report: "",
-        source: "",
-    }
+    // {
+    //     title: "",
+    //     keywords: [],
+    //     summary: "",
+    //     description: "",
+    //     report: "",
+    //     source: "",
+    // }
 ]

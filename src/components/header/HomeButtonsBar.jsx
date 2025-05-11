@@ -8,13 +8,13 @@ function HomeButton({children, handleClick}) {
 }
 
 
-export default function HomeButtonsBar({openProjects, openExperience, isHeader}) {
+export default function HomeButtonsBar({showProjects, showExperience, isHeader}) {
     // Define styles
 
     return (
         <div className={`${HOME_BUTTON_BAR_STYLE} ${isHeader}`}>
-            <HomeButton handleClick={openProjects}>PROJECTS</HomeButton>
-            <HomeButton handleClick={openExperience}>EXPERIENCE</HomeButton>
+            <HomeButton handleClick={showProjects}>PROJECTS</HomeButton>
+            <HomeButton handleClick={showExperience}>EXPERIENCE</HomeButton>
         </div>
     );
 }

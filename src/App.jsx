@@ -1,11 +1,10 @@
 import HomeMobile from "./components/HomeMobile.jsx";
-import Header from "./components/Header.jsx";
 import {useState} from "react";
 import Experience from "./components/Experience.jsx";
 import Projects from "./components/Projects.jsx";
+import Home from "./components/Home.jsx";
 
 export default function App() {
-    const CENTERING_STYLE = "flex flex-col items-center justify-center h-screen";
 
     const [showProjects, setShowProjects] = useState(false)
     const [showExperience, setShowExperience] = useState(false)
@@ -20,13 +19,21 @@ export default function App() {
         setShowProjects(false);
     }
 
+    const renderContent = () => {
+        if (showExperience) {
+            return <Experience />;
+        } else if (true) {
+            return <Projects />;
+        } else {
+            return <Home
+                showProjects={false}
+                showExperience={true}/>;
+        }
+    }
 
   return (
-    <div className={`${CENTERING_STYLE} mb-50`}>
-        <Header showHeader={showExperience || showProjects} changeToExperience={() => changeToExperience()} changeToProjects={() => changeToProjects()} />
-        {showExperience && <Experience />}
-        {showProjects && <Projects/>}
-        <HomeMobile/>
+    <div className={`mb-50`}>
+        {renderContent()}
     </div>
   )
 }

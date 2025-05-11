@@ -1,14 +1,13 @@
+import {HOME_MOBILE_STYLE, NAME_MOBILE_STYLE, SURNAME_MOBILE_STYLE, SOCIALS_MOBILE_STYLE} from "../TailwindStyles.js"
+
 export default function HomeMobile() {
-    let homeMobileStyle = "md:hidden flex flex-col justify-center h-screen mx-20";
-    let nameStyle = "text-right text-7xl font-thin text-gray-700 mb-6";
-    let surnameStyle = "font-semibold text-gray-900";
-    let socialsStyle = "block items-center justify-center text-gray-800 text-xl tracking-normal space-y-1";
+
 
     return (
         <>
-            <div className={homeMobileStyle}>
-                <h1 className={nameStyle}>Alexandros <br/> <span className={surnameStyle}>Xiarchos</span></h1>
-                <div className={socialsStyle}>
+            <div className={HOME_MOBILE_STYLE}>
+                <h1 className={NAME_MOBILE_STYLE}>Alexandros <br/> <span className={SURNAME_MOBILE_STYLE}>Xiarchos</span></h1>
+                <div className={SOCIALS_MOBILE_STYLE}>
                     <div className="flex justify-end">
                         <img src="https://www.svgrepo.com/show/502648/email.svg" alt="site icon" className="w-5 h-5 mr-3"/>
                         <a href="mailto:alex@xiarxos.gr" target="_blank">alex@xiarxos.gr</a>
