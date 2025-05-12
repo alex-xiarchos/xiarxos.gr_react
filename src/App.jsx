@@ -20,19 +20,19 @@ export default function App() {
     }
 
     const renderContent = () => {
-        if (showExperience) {
+        if (false) {
             return <Experience />;
-        } else if (true) {
+        } else if (false) {
             return <Projects />;
         } else {
             return <Home
                 showProjects={false}
-                showExperience={true}/>;
+                showExperience={false}/>;
         }
     }
 
   return (
-    <div className={`mb-50`}>
+    <div className={``}>
         {renderContent()}
     </div>
   )
