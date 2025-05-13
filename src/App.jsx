@@ -5,43 +5,42 @@ import Projects from "./components/Projects.jsx";
 import Home from "./components/Home.jsx";
 
 export default function App() {
-    const [showProjects, setShowProjects] = useState(false)
-    const [showExperience, setShowExperience] = useState(false)
+    const [showProjects, setShowProjects] = useState(false);
+    const [showExperience, setShowExperience] = useState(false);
 
     function changeToProjects() {
-        setShowProjects(!showProjects);
-        // setShowExperience(false);
+        setShowProjects((prev) => !prev);
+        setShowExperience(false);
     }
 
     function changeToExperience() {
-        setShowExperience(!showExperience);
-        // setShowProjects(false);
+        setShowExperience((prev) => !prev);
+        setShowProjects(false);
     }
-
 
     const renderContent = () => {
-        if (false) {
-            return <Home showAsHeader={false} showProjects={changeToProjects} showExperience={changeToExperience} />;
-        } else if (false) {
+        if (showExperience) {
             return (
                 <>
-                    <Home showAsHeader={true}/>
-                    <Experience/>;
+                    <Home showAsHeader={true} showProjects={changeToProjects} showExperience={changeToExperience} />
+                    <Experience />
                 </>
-            )
-        } else if (true) {
-            return (
-                <>
-                    <Home showAsHeader={true}/>
-                    <Projects />;
-                </>
-            )
+            );
         }
-    }
+        if (showProjects) {
+            return (
+                <>
+                    <Home showAsHeader={true} showProjects={changeToProjects} showExperience={changeToExperience} />
+                    <Projects />
+                </>
+            );
+        }
+        return <Home showAsHeader={false} showProjects={changeToProjects} showExperience={changeToExperience} />;
+    };
 
-  return (
-    <div className={``}>
-        {renderContent()}
-    </div>
-  )
+    return (
+        <div>
+            {renderContent()}
+        </div>
+    );
 }

@@ -11,7 +11,7 @@ export default function Header({showAsHeader, showProjects, showExperience}) {
             <div className={`${showAsHeader? HEADER_STYLE : CENTERING_STYLE}`}>
                 <Name/>
                 <SocialsBar/>
-                <HomeButtonsBar openExperience={showExperience} openProjects={showProjects}/>
+                <HomeButtonsBar showExperience={showExperience} showProjects={showProjects}/>
             </div>
         </>
     )
