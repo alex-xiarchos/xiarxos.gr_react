@@ -1,6 +1,6 @@
 import { HOME_STYLE, NAME_STYLE, SURNAME_STYLE } from '../../TailwindStyles.js';
 
-export default function Home() {
+export default function Name() {
 
 
     return (

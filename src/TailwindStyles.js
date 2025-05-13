@@ -1,4 +1,4 @@
-// Home
+// Name
 export const HOME_STYLE = "md:flex items-center justify-center";
 const CENTERING_STYLE = "flex flex-col items-center justify-center h-screen";
 

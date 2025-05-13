@@ -19,16 +19,9 @@ export default function App() {
         setShowProjects(false);
     }
 
+
     const renderContent = () => {
-        if (false) {
-            return <Experience />;
-        } else if (false) {
-            return <Projects />;
-        } else {
-            return <Home
-                showProjects={false}
-                showExperience={false}/>;
-        }
+        return <Home />;
     }
 
   return (
