@@ -5,23 +5,38 @@ import Projects from "./components/Projects.jsx";
 import Home from "./components/Home.jsx";
 
 export default function App() {
-
     const [showProjects, setShowProjects] = useState(false)
     const [showExperience, setShowExperience] = useState(false)
 
     function changeToProjects() {
         setShowProjects(!showProjects);
-        setShowExperience(false);
+        // setShowExperience(false);
     }
 
     function changeToExperience() {
         setShowExperience(!showExperience);
-        setShowProjects(false);
+        // setShowProjects(false);
     }
 
 
     const renderContent = () => {
-        return <Home />;
+        if (false) {
+            return <Home showAsHeader={false} showProjects={changeToProjects} showExperience={changeToExperience} />;
+        } else if (false) {
+            return (
+                <>
+                    <Home showAsHeader={true}/>
+                    <Experience/>;
+                </>
+            )
+        } else if (true) {
+            return (
+                <>
+                    <Home showAsHeader={true}/>
+                    <Projects />;
+                </>
+            )
+        }
     }
 
   return (

@@ -1,6 +1,6 @@
 // Name
 export const HOME_STYLE = "md:flex items-center justify-center";
-const CENTERING_STYLE = "flex flex-col items-center justify-center h-screen";
+export const CENTERING_STYLE = "flex flex-col items-center justify-center h-screen";
 
 // Header - Name
 export const NAME_STYLE = "text-8xl font-thin text-gray-700 whitespace-nowrap";
