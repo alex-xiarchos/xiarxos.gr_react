@@ -7,7 +7,7 @@ export default function HomeMobile() {
 
     return (
         <>
-            <div className={HOME_MOBILE_STYLE}>
+            <div className={`${HOME_MOBILE_STYLE}`}>
                 <h1 className={NAME_MOBILE_STYLE}>Alexandros <br/> <span className={SURNAME_MOBILE_STYLE}>Xiarchos</span></h1>
                 <div className={SOCIALS_MOBILE_STYLE}>
                     <div className={linkGroupStyle}>
