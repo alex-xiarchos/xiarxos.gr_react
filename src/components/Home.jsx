@@ -8,7 +8,7 @@ export default function Home({showAsHeader, showProjects, showExperience}) {
                     showProjects={showProjects}
                     showExperience={showExperience}/>
 
-            {/*<HomeMobile/>*/}
+            <HomeMobile/>
         </>
     )
 }
