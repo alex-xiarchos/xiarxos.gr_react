@@ -1,4 +1,4 @@
-import {HOME_BUTTON_STYLE} from "../TailwindStyles.js";
+import {HOME_BUTTON_STYLE} from "../../TailwindStyles.js";
 
 export default function Button({children, handleClick}) {
     return (

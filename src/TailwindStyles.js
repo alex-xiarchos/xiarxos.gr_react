@@ -20,5 +20,8 @@ export const SURNAME_MOBILE_STYLE = "font-semibold text-gray-900";
 export const SOCIALS_MOBILE_STYLE = "block items-center justify-center text-gray-800 text-xl tracking-normal space-y-1";
 
 // Projects
-export const PROJECT_CARDS_STYLE = "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-10";
+export const PROJECT_CARDS_STYLE = "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-10 mb-20";
 export const TAG_STYLE = "inline-block mb-2 mr-2 bg-gray-100 px-2 py-0.5 rounded"
+export const CARD_BUTTONS_STYLE = "flex absolute bottom-0 mb-5 left-0 right-0 justify-center"
+
+// Experience

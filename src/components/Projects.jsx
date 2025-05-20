@@ -1,6 +1,6 @@
 import {PROJECTS} from "../data/projectsData.js";
-import {PROJECT_CARDS_STYLE, TAG_STYLE} from "../TailwindStyles.js";
-import Button from "./Button.jsx";
+import {CARD_BUTTONS_STYLE, PROJECT_CARDS_STYLE, TAG_STYLE} from "../TailwindStyles.js";
+import Button from "./utilities/Button.jsx";
 import {useState} from "react";
 
 export default function Projects() {
@@ -43,9 +43,9 @@ export default function Projects() {
                             >Read less</span>
                         </p>
                     )}
-                    <div className="flex absolute bottom-0 mb-5 left-0 right-0 justify-center">
-                        <Button>Report</Button>
-                        <Button>Source</Button>
+                    <div className={CARD_BUTTONS_STYLE}>
+                        {project.report && (<a href={project.report} target="_blank"><Button>Report</Button></a>)}
+                        {project.source && (<a href={project.source} target="_blank"><Button>Source</Button></a>)}
                     </div>
                 </div>
             ))}
