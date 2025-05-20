@@ -9,7 +9,7 @@ export const PROJECTS = [
             "For classification, Scikit-learn models —Neural Networks (MLP), Random Forest, and Bayesian Networks— were evaluated using accuracy, precision, recall, and F1-score. Random Forest achieved the highest accuracy but showed overfitting, while Neural Networks offered the best balance.\n" +
             "\n" +
             "For clustering, K-Means effectively grouped activities, whereas DBSCAN struggled with high-dimensional data.",
-        report: "https://xiarxos.gr/files/Project_DataMining_Report.pdf",
+        report: "../../public/reports/Project_DataMining_Report.pdf",
         source: "https://github.com/alex-xiarchos/ceid-DataMining",
     },
     {
@@ -21,7 +21,7 @@ export const PROJECTS = [
         description: "An Information Retrieval system built in Python to efficiently process and rank text documents. It implements a Vector Space Model (VSM) with TF-IDF weighting and a deep-learning-based retrieval model (ColBERT). The system performs document preprocessing, inverted indexing, and query ranking to retrieve relevant results.\n" +
             "\n" +
             "The preprocessing pipeline removes stopwords, applies stemming, and tokenizes text using NLTK. An inverted index maps terms to document occurrences for fast retrieval. The VSM model computes TF-IDF weights with two schemes and ranks documents based on cosine similarity. The ColBERT model, integrated via Google Colab, leverages a pretrained transformer-based architecture for contextualized ranking.",
-        report: "https://xiarxos.gr/files/Project_InfoRetrieval_Report.pdf",
+        report: "../../public/reports/Project_InfoRetrieval_Report.pdf",
         source: "https://github.com/alex-xiarchos/ceid-InfoRetrival",
     },
     {
@@ -39,7 +39,7 @@ export const PROJECTS = [
             "An approximate similarity search algorithm using Locality-Sensitive Hashing (LSH) was also implemented. The LSH model applies MinHashing to compare educational backgrounds efficiently, using Jaccard similarity and One-Hot Encoding. The text preprocessing pipeline integrates tokenization, stopword removal, stemming, and regex parsing.\n" +
             "\n" +
             "Benchmarking showed K-D Tree and Range Tree had the fastest queries, R-Tree handled irregular data well, and Quad Tree was slower due to recursion.",
-        report: "https://xiarxos.gr/files/Project_MultiDimStructures_Report.pdf",
+        report: "../../public/reports/Project_MultiDimStructures_Report.pdf",
         source: "https://github.com/alex-xiarchos/ceid-MultidimensionalDataStructures",
     },
     {
@@ -53,7 +53,7 @@ export const PROJECTS = [
         description: "A task management application built with the Mendix low-code platform and deployed on a cloud environment. The system structures data using domain models, defining entity relationships and associations, while microflows handle process automation, user interactions, and database operations.\n" +
             "\n" +
             "Custom UI/UX components were developed using Mendix widgets and layouts, incorporating Kanban boards and calendar views for an intuitive experience. Role-based authentication and access control ensure secure multi-user functionality, supporting both administrator and standard user roles.",
-        report: "https://xiarxos.gr/files/Project_Mendix.pdf",
+        report: "../../public/reports/Project_Mendix.pdf",
         source: "https://unitask-sandbox.mxapps.io/login.html",
     },
     {
@@ -65,7 +65,7 @@ export const PROJECTS = [
         description: "Developed a web‑based disaster management platform enabling citizens to request or offer essential items, with rescuers coordinating pickups and deliveries to and from a central base.\n" +
             "\n" +
             "Developed using JavaScript, PHP, jQuery and AJAX for server‑side interactions, with front‑end enhancements utilizing Leaflet for interactive maps, Tailwind CSS for responsive design, sweetalert2 for user popup notifications, and Chart.js for statistic data visualization.",
-        report: "https://xiarxos.gr/files/Project_WebDev_Report.pdf",
+        report: "../../public/reports/Project_WebDev_Report.pdf",
         source: "https://github.com/alex-xiarchos/ceid-Web/",
     },
     // {
