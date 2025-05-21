@@ -1,4 +1,3 @@
-import HomeMobile from "./components/HomeMobile.jsx";
 import {useState} from "react";
 import Experience from "./components/Experience.jsx";
 import Projects from "./components/Projects.jsx";
