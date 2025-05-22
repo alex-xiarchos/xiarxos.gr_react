@@ -17,7 +17,7 @@ export const HEADER_STYLE = "hidden md:block justify-center min-w-full py-4 mb-8
 export const HOME_MOBILE_STYLE = "md:hidden fixed inset-0 flex flex-col justify-center overflow-hidden h-screen mr-10 mb-10";
 export const NAME_MOBILE_STYLE = "text-right text-7xl font-thin text-gray-700 mb-6";
 export const SURNAME_MOBILE_STYLE = "font-semibold text-gray-900";
-export const SOCIALS_MOBILE_STYLE = "block items-center justify-center text-gray-800 text-xl tracking-normal space-y-1";
+export const SOCIALS_MOBILE_STYLE = "block items-center justify-center text-gray-800 text-xl tracking-normal space-y-1 mb-10";
 
 // Projects
 export const PROJECT_CARDS_STYLE = "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-10 mb-20";
