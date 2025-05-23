@@ -44,7 +44,7 @@ export default function App() {
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={renderContent()} />
-                <Route path="/cv" element={<Navigate to="/Alexandros Xiarchos - CV.pdf" />} />
+                <Route path="/cv" element={<Navigate to="/cv.pdf" />} />
             </Routes>
         </BrowserRouter>
     );
