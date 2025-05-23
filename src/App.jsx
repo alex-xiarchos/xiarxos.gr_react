@@ -1,4 +1,7 @@
 import {useState} from "react";
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+
+
 import Experience from "./components/Experience.jsx";
 import Projects from "./components/Projects.jsx";
 import Home from "./components/Home.jsx";
@@ -38,8 +41,11 @@ export default function App() {
     };
 
     return (
-        <div>
-            {renderContent()}
-        </div>
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={renderContent()} />
+                <Route path="/cv" element={<Navigate to="/Alexandros Xiarchos - CV.pdf" />} />
+            </Routes>
+        </BrowserRouter>
     );
 }
