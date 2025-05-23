@@ -1,5 +1,4 @@
 import {useState} from "react";
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 
 
 import Experience from "./components/Experience.jsx";
@@ -41,11 +40,8 @@ export default function App() {
     };
 
     return (
-        <BrowserRouter>
-            <Routes>
-                <Route path="/" element={renderContent()} />
-                <Route path="/cv" element={<Navigate to="/cv.pdf" />} />
-            </Routes>
-        </BrowserRouter>
+        <>
+            {renderContent()}
+        </>
     );
 }
