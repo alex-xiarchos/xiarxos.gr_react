@@ -1,4 +1,4 @@
-import {HOME_BUTTON_STYLE, HOME_BUTTON_BAR_STYLE} from "../../TailwindStyles.js"
+import {HOME_BUTTON_BAR_STYLE} from "../../TailwindStyles.js"
 import Button from "../utilities/Button.jsx";
 
 export default function HomeButtonsBar({showProjects, showExperience, isHeader}) {
