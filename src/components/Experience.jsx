@@ -16,8 +16,8 @@ export default function Experience() {
         <div className={CARDS_STYLE}>
             {EXPERIENCE.map((experience, index) => (
                 <div key={index} className="relative p-4 shadow-md bg-white pb-5">
-                    <h3 className="text-lg font-semibold text-gray-700">{experience.company}</h3>
-                    <h2 className="text-2xl font-bold text-gray-800">{experience.title}</h2>
+                    <h3 className="text-lg font-semibold text-gray-700 pb-1">{experience.company}</h3>
+                    <h2 className="text-2xl font-bold text-gray-800 py-1">{experience.title}</h2>
                     <p className="text-gray-500 mb-2">{experience.date}</p>
                     {!showMoreStates[index] && (
                         <p className="text-gray-600 pb-3 whitespace-pre-line">
