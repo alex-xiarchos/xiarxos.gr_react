@@ -1,5 +1,5 @@
 import {PROJECTS} from "../data/projectsData.js";
-import {CARD_BUTTONS_STYLE, PROJECT_CARDS_STYLE, TAG_STYLE} from "../TailwindStyles.js";
+import {CARD_BUTTONS_STYLE, CARDS_STYLE, TAG_STYLE} from "../TailwindStyles.js";
 import Button from "./utilities/Button.jsx";
 import {useState} from "react";
 
@@ -14,7 +14,7 @@ export default function Projects() {
     };
 
     return (
-        <div className={PROJECT_CARDS_STYLE}>
+        <div className={CARDS_STYLE}>
             {PROJECTS.map((project, index) => (
                 <div key={index} className="relative p-4 shadow-md bg-white pb-15">
                     <ul className="mb-1 text-sm text-gray-500">
