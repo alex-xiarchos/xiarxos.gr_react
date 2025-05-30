@@ -46,7 +46,7 @@ src/
 
 ## 🌐 Live Demo
 
-Coming soon... 👀
+[xiarxos.gr](xiarxos.gr)
 
 ## 📸 Screenshots
 
