@@ -1,13 +1,23 @@
 export const PROJECTS = [
     {
+        title: "xiarxos.gr",
+        keywords: ["JavaScript", "React", "Tailwind CSS", "Vite"],
+        summary: "A responsive personal portfolio site developed using React and styled with Tailwind CSS.\n\n" +
+            "It features a modular component structure with standalone, reusable elements. The project reflects a strong grasp of React best practices, interactive UI design, and scalable frontend architecture.",
+        description: "Personal portfolio website built with React and styled using Tailwind CSS. It is structured entirely around modular components following React best practices for maintainability.\n\n" +
+            "Data (projects, experience, social links) and Tailwind class constants are dynamically imported from external JS files, keeping content separate from logic and presentation, allowing for future scalability. React components like buttons are fully functional and abstracted for reusability, contributing to a consistent user experience across the site.\n\n" +
+            "The layout is fully responsive and dynamically adapts to screen size. On mobile devices, the site renders an alternate component providing a tailored experience for each device context.\n\n" +
+            "The project uses Vite for fast development and builds. The overall architecture reflects a thoughtful application of React design patterns and clean component hierarchy.",
+        report: "",
+        source: "https://github.com/alex-xiarchos/xiarxos.gr_react"
+    },
+    {
         title: "Human Activity Classification & Clustering System",
         keywords: ["Python", "pandas", "Matplotlib", "Neural Networks"],
         summary: "A data mining system utilizing classification and clustering to analyze human activity data from wearable sensors.\n\n" +
             "Classification models (MLP, Random Forest, Bayesian Networks) and clustering algorithms (K-Means, DBSCAN) were applied after data preprocessing and visualization.",
-        description: "A data mining and machine learning system for classifying and clustering human activity data from wearable sensors. The preprocessing pipeline, built with Pandas and NumPy, handles missing values, normalizes sensor readings, and structures data for analysis. Visualization is done using Matplotlib and Seaborn.\n" +
-            "\n" +
-            "For classification, Scikit-learn models —Neural Networks (MLP), Random Forest, and Bayesian Networks— were evaluated using accuracy, precision, recall, and F1-score. Random Forest achieved the highest accuracy but showed overfitting, while Neural Networks offered the best balance.\n" +
-            "\n" +
+        description: "A data mining and machine learning system for classifying and clustering human activity data from wearable sensors. The preprocessing pipeline, built with Pandas and NumPy, handles missing values, normalizes sensor readings, and structures data for analysis. Visualization is done using Matplotlib and Seaborn.\n\n" +
+            "For classification, Scikit-learn models —Neural Networks (MLP), Random Forest, and Bayesian Networks— were evaluated using accuracy, precision, recall, and F1-score. Random Forest achieved the highest accuracy but showed overfitting, while Neural Networks offered the best balance.\n\n" +
             "For clustering, K-Means effectively grouped activities, whereas DBSCAN struggled with high-dimensional data.",
         report: "/reports/Project_DataMining_Report.pdf",
         source: "https://github.com/alex-xiarchos/ceid-DataMining",
