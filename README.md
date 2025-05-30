@@ -48,14 +48,6 @@ src/
 
 [xiarxos.gr](xiarxos.gr)
 
-## 📸 Screenshots
-
-You can add some here later to visually showcase the UI/UX on different devices.
-
-## 📄 License
-
-MIT — feel free to clone, fork, and adapt!
-
 ---
 
 Crafted with ❤️ by [@alex-xiarchos](https://github.com/alex-xiarchos)
