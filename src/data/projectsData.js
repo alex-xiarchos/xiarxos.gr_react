@@ -2,7 +2,7 @@ export const PROJECTS = [
     {
         title: "xiarxos.gr",
         keywords: ["JavaScript", "React", "Tailwind CSS", "Vite"],
-        summary: "A responsive personal portfolio site developed using React and styled with Tailwind CSS.\n\n" +
+        summary: "Responsive personal portfolio site developed using React and styled with Tailwind CSS.\n\n" +
             "It features a modular component structure with standalone, reusable elements. The project reflects a strong grasp of React best practices, interactive UI design, and scalable frontend architecture.",
         description: "Personal portfolio website built with React and styled using Tailwind CSS. It is structured entirely around modular components following React best practices for maintainability.\n\n" +
             "Data (projects, experience, social links) and Tailwind class constants are dynamically imported from external JS files, keeping content separate from logic and presentation, allowing for future scalability. React components like buttons are fully functional and abstracted for reusability, contributing to a consistent user experience across the site.\n\n" +
