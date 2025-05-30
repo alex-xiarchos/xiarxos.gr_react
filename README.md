@@ -18,8 +18,6 @@ Personal portfolio site, designed and developed to reflect clean UI/UX principle
 - 📱 **Responsive & Context-Aware Design**: Mobile users experience different components like `HomeMobile` for optimal UX depending on screen size.
 - 📦 **External Data Files**: Project, experience, and social data are imported from standalone JS modules (`projectsData.js`, `experienceData.js`, etc.) keeping logic and content separate.
 - 💡 **Reusable UI Elements**: Custom buttons and layout utilities are abstracted into dedicated components.
-- ⚙️ **Fast Dev Workflow**: Built using Vite for lightning-fast development and HMR.
-- 🧹 **Code Quality**: ESLint ensures consistent and readable code throughout the project.
 
 ## 📁 Project Structure (Simplified)
 
@@ -43,11 +41,3 @@ src/
 ├── App.jsx
 └── index.jsx
 ```
-
-## 🌐 Live Demo
-
-[xiarxos.gr](xiarxos.gr)
-
----
-
-Crafted with ❤️ by [@alex-xiarchos](https://github.com/alex-xiarchos)
