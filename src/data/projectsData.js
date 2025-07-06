@@ -23,7 +23,7 @@ export const PROJECTS = [
         source: "https://github.com/alex-xiarchos/ceid-DataMining",
     },
     {
-        title: "Medical Information Retrieval Search Engine",
+        title: "Semantic Document Search with TF-IDF & ColBERT",
         keywords: ["Python", "NumPy", "Matplotlib", "VSM", "ColBERT"],
         summary: "An Information Retrieval system utilizing both traditional and deep-learning-based models to process and rank text documents.\n" +
             "\n" +
